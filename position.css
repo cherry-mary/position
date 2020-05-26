@@ -29,3 +29,20 @@
 .two-star-block__icon {
     margin-left: 6px;
 }
+.one-star-block {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    height: 145px;
+    border: 1px solid;
+}
+.one-star-block__text {
+    font-size: 24px;
+}
+.one-star-block__icon {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+}
